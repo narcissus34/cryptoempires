@@ -1,8 +1,8 @@
-defmodule CryptoempiresTest do
+defmodule CryptoEmpiresTest do
   use ExUnit.Case
-  doctest Cryptoempires
+  doctest CryptoEmpires
 
   test "greets the world" do
-    assert Cryptoempires.hello() == :world
+    assert CryptoEmpires.hello() == :world
   end
 end

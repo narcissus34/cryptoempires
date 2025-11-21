@@ -1,4 +1,4 @@
-defmodule Cryptoempires.Application do
+defmodule CryptoEmpires.Application do
   @moduledoc false
 
   use Application
@@ -6,10 +6,10 @@ defmodule Cryptoempires.Application do
   @impl true
   def start(_type, _args) do
     children = [
-      # AnimEx will start automatically as a dependency
+      # {AnimEx.Application, []}
     ]
 
-    opts = [strategy: :one_for_one, name: Cryptoempires.Supervisor]
+    opts = [strategy: :one_for_one, name: CryptoEmpires.Supervisor]
     Supervisor.start_link(children, opts)
   end
 end

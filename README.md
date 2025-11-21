@@ -1,4 +1,4 @@
-# Cryptoempires
+# CryptoEmpires
 
 **TODO: Add description**
 
