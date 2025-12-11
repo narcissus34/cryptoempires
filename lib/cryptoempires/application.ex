@@ -6,7 +6,8 @@ defmodule CryptoEmpires.Application do
   @impl true
   def start(_type, _args) do
     children = [
-      # {AnimEx.Application, []}
+      # AnimEx is now started automatically as an OTP application
+      # No need to start it manually here
     ]
 
     opts = [strategy: :one_for_one, name: CryptoEmpires.Supervisor]

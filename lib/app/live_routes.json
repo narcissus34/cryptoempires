@@ -1,0 +1,5 @@
+[
+  ["/", "entry", "home"],
+  ["/login", "entry", "login"],
+  ["/register", "entry", "register"]
+]
